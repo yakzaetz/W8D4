@@ -1,6 +1,18 @@
 class Clock {
     constructor(){
-        new Date()
+        this.date = new Date();
+        this.hh = this.date.getHours();
+        this.mm = this.date.getMinutes();
+        this.ss = this.date.getSeconds();
+
+        // printTime()
+
+        setTimeout(() => {
+            console.log(printTime())
+        }, 1000);
     }
-    // newDate()
+
+    
 }
+
+const clock = new Clock();
