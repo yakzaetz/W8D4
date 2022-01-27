@@ -57,17 +57,35 @@
 // const clock = new Clock();
 // clock._tick();
 
-const readline = require('readline');
+// const readline = require('readline');
 
-const reader = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+// const reader = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
 
-function addNumbers(sum, numsLeft, completionCallback){
-    if (numsLeft > 0){
-        reader.question("Enter a number", function(){
+// function addNumbers(sum, numsLeft, completionCallback){
+//     if (numsLeft === 0) {
+//         console.log("hello")
+//         completionCallback(sum);
+//         return
+//     }
+//     if (numsLeft > 0){
+//         console.log("hi")
+//         reader.question("Enter a number", function(input){
+//             sum += (parseInt(input))
+//             // console.log(sum += parseInt(input))
+//             addNumbers(sum, (numsLeft - 1), completionCallback)
+//         })
+//     }
+//     // numsLeft -= 1
+//      // 3 => numsleft = numsleft - 1
+// }
 
-        })
-    }
-}
+// addNumbers(0, 3, sum => {
+//     console.log(`Total Sum: ${sum}`)
+//     reader.close()
+// });
+
+
+
