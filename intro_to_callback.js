@@ -119,3 +119,5 @@ myBoundTurnOn(); // should say "Turning on a lamp"
 Function.prototype.myBind = function(newThis){
     that = this
 }
+
+// please work this time 
