@@ -89,3 +89,6 @@
 
 
 
+Function.prototype.myBind = function(newThis){
+    that = this
+}
